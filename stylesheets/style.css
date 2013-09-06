@@ -1,0 +1,51 @@
+custom-first-name {
+    color : #f00;
+}
+
+custom-last-name {
+    color : #69f;
+}
+
+custom-time {
+    color: hotpink;
+}
+
+::x-menubar {
+    display: block;
+    border: 1px solid #777;
+    height: 100px;
+    background: #efefef;
+    border-radius: 5px;
+}
+
+::x-menu {
+    display: inline;
+    list-style: none;
+    float: left;
+}
+
+::x-submenu{
+    list-style: none;
+    color : #69f;
+    /*display: none;*/
+}
+
+::x-menu-text {
+    color: red;
+}
+
+::x-menu:hover>a{
+    color : #69f;
+}
+
+::x-menu:hover ::x-submenu {
+    display: block;
+}
+
+
+.cam{
+    /*border : 1px solid green;*/
+    display: block;
+    width: 640px;
+    height: 400px;
+}
